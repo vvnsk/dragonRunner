@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>GSap</title>
+		<link rel="stylesheet" type="text/css" href="css/css_reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+	</head>
+
+	<body>
+		<div id="sky">
+	        <div id="med_clouds">
+            	<img src="images/med-clouds.png" />
+            </div>
+            <div id="dragon">
+            	<img src="images/dragon.gif" />
+            </div>
+            <div id="small_clouds">
+            	<img src="images/small-clouds.png" />
+            </div>
+			<div id="ltrees">
+				<img src="images/trees-left.png" />
+			</div>
+            <div id="rtrees">
+				<img src="images/trees-right.png" />
+			</div>
+            <div id="man">
+            	<img src="images/walk.png" />
+            </div>
+		</div>
+		<div id="ground">
+        	 <button id="button12" onclick="toggleFullscreen()">Toggle Full Screen</button>
+             <div id="keyboard">
+             	Hit the Up Arrow!!!
+             	<img src="images/keyboard.png" usemap="#Map" />
+                <map name="Map"><area shape="rect" coords="51,3,90,50" id="jump" /></map>
+             </div>
+		</div>
+		<script src="js/greensock/TweenMax.min.js"></script> 
+		<!-- scripts for jQuery UI slider component --> 
+		<script src="js/jquery/jquery-1.8.2.js"></script> 
+		<script src="js/default.js"></script>
+	</body>
+</html>
